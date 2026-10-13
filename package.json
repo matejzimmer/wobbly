@@ -1,0 +1,16 @@
+{
+  "name": "wobbly",
+  "version": "1.0.0",
+  "description": "Wobbly website for kids electrolytes and nutrition",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "test": "echo \"No automated tests configured\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://localhost:26831/matejzimmer/wobbly"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

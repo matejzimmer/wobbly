@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wobbly | Kids Electrolytes & Nutrition</title>
+    <meta
+      name="description"
+      content="Wobbly provides electrolytes and nutrition support made for kids."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero__content">
+        <p class="eyebrow">Wobbly</p>
+        <h1>Electrolytes and Nutrition for Kids</h1>
+        <p>
+          Gentle hydration and balanced daily nutrition designed for growing
+          kids.
+        </p>
+        <a class="button" href="#products">Explore Products</a>
+      </div>
+    </header>
+
+    <main>
+      <section id="products" class="section">
+        <h2>What We Offer</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Kids Electrolytes</h3>
+            <p>
+              Child-friendly electrolyte blends that support hydration during
+              play, school, and active days.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Kids Nutrition</h3>
+            <p>
+              Everyday nutrition options tailored for children, with focus on
+              balanced energy and wellness.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section--soft">
+        <h2>Why Families Choose Wobbly</h2>
+        <ul>
+          <li>Made with kids and parents in mind</li>
+          <li>Simple, clear product focus</li>
+          <li>Support for active and healthy routines</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; <span id="year"></span> Wobbly. All rights reserved.</p>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
